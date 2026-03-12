@@ -1,0 +1,1 @@
+A fast, ergonomic CLI tool written in Rust that automates repetitive development tasks. Features include project template generation, environment setup, automated testing pipelines, and one-command deployment to various cloud providers.

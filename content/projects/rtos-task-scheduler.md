@@ -1,0 +1,1 @@
+Developed a lightweight RTOS-like task scheduler for STM32F4 microcontrollers. Implements priority-based preemptive scheduling, inter-task communication via message queues, and hardware timer-based context switching. Written entirely in C and ARM Assembly.

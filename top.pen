@@ -1,0 +1,479 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "6VlL4",
+      "x": -26,
+      "y": -80,
+      "name": "Portfolio - benji style",
+      "clip": true,
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "hgWtZ",
+          "name": "Bio Section",
+          "width": 1434,
+          "height": 584,
+          "gap": 32,
+          "padding": [
+            80,
+            240
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SYUpq",
+              "name": "bioName",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width-height",
+              "width": 187,
+              "height": 116,
+              "content": "Mitchel Reints",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "600",
+              "letterSpacing": -1.5
+            },
+            {
+              "type": "frame",
+              "id": "jQfgp",
+              "name": "bioTextBlock",
+              "width": 723,
+              "height": 502,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xGnnB",
+                  "name": "bioUpdated",
+                  "fill": "#BBBBBB",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#000000ff"
+                  },
+                  "textGrowth": "fixed-width-height",
+                  "width": "fit_content(138)",
+                  "height": "fit_content(16)",
+                  "content": "Updated Feb 28, 2026",
+                  "fontFamily": "Inter",
+                  "fontSize": 13
+                },
+                {
+                  "type": "text",
+                  "id": "MrxMH",
+                  "name": "bioPara1",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "I was born in The Netherlands, where I currently study Electrical Engineering. My journey started with curiosity about how electronics work at a fundamental level — from circuit design and signal processing to firmware development and communication protocols.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 17
+                },
+                {
+                  "type": "text",
+                  "id": "2VES6",
+                  "name": "bioPara2",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "I'm a Junior Embedded Systems Engineer & Software Developer with a strong focus on microcontroller programming, PCB design, and full-stack web development. I work with STM32, ESP32, and Rust for embedded systems, alongside React and Next.js for web interfaces.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 17
+                },
+                {
+                  "type": "text",
+                  "id": "M6ltS",
+                  "name": "bioPara3",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "Over time, I expanded into web development and DevOps, giving me a unique perspective that spans from register-level programming to cloud deployment. I'm passionate about writing efficient, close-to-hardware code and designing systems that are both robust and maintainable.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 17
+                },
+                {
+                  "type": "text",
+                  "id": "mC5JJ",
+                  "name": "bioPara4",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "I consider myself an engineer at heart and enjoy building highly optimized embedded solutions.",
+                  "lineHeight": 1.7,
+                  "fontFamily": "Inter",
+                  "fontSize": 17
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "44WEV",
+          "name": "Main Content",
+          "width": "fill_container",
+          "gap": 64,
+          "padding": [
+            40,
+            200
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "WNuds",
+              "name": "Writing Column",
+              "width": 420,
+              "layout": "vertical",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JkCdX",
+                  "name": "writingHeader",
+                  "fill": "#999999",
+                  "content": "Blog",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.8
+                },
+                {
+                  "type": "frame",
+                  "id": "QRdHC",
+                  "name": "post1",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "uhNnk",
+                      "name": "post1Title",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qHDOm",
+                          "name": "post1Name",
+                          "fill": "#1A1A1A",
+                          "content": "Building an RTOS from Scratch",
+                          "fontFamily": "Inter",
+                          "fontSize": 15
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CiCwG",
+                          "name": "post1Badge",
+                          "fill": "#E8F5E9",
+                          "cornerRadius": 10,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "miU4Q",
+                              "name": "post1BadgeText",
+                              "fill": "#2E7D32",
+                              "content": "New",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "UsIVJ",
+                      "name": "post1Date",
+                      "fill": "#BBBBBB",
+                      "content": "15/01 / 2026",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "line",
+                  "id": "WmEt0",
+                  "name": "divider1",
+                  "width": "fill_container",
+                  "height": 0,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F0F0F0"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "PzP3E",
+                  "name": "post2",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "r0BnS",
+                      "name": "post2Name",
+                      "fill": "#1A1A1A",
+                      "content": "Rust for Embedded Developers",
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "i7NhL",
+                      "name": "post2Date",
+                      "fill": "#BBBBBB",
+                      "content": "10/12 / 2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "line",
+                  "id": "Nyp87",
+                  "name": "divider2",
+                  "width": "fill_container",
+                  "height": 0,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F0F0F0"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "CXfrd",
+                  "name": "post3",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q4ixH",
+                      "name": "post3Name",
+                      "fill": "#1A1A1A",
+                      "content": "Next.js Portfolio Devlog",
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "TOaU5",
+                      "name": "post3Date",
+                      "fill": "#BBBBBB",
+                      "content": "28/11 / 2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "line",
+                  "id": "unvWL",
+                  "name": "divider3",
+                  "width": "fill_container",
+                  "height": 0,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F0F0F0"
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "la2Be",
+                  "name": "post4",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OG1LS",
+                      "name": "post4Name",
+                      "fill": "#1A1A1A",
+                      "content": "Designing PCBs with KiCad",
+                      "fontFamily": "Inter",
+                      "fontSize": 15
+                    },
+                    {
+                      "type": "text",
+                      "id": "M22dn",
+                      "name": "post4Date",
+                      "fill": "#BBBBBB",
+                      "content": "05/09 / 2025",
+                      "fontFamily": "Inter",
+                      "fontSize": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "line",
+          "id": "IHDWR",
+          "name": "dividerFull",
+          "width": "fill_container",
+          "height": 0,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#F0F0F0"
+          }
+        },
+        {
+          "type": "line",
+          "id": "8GVUW",
+          "name": "divider2",
+          "width": "fill_container",
+          "height": 0,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#F0F0F0"
+          }
+        },
+        {
+          "type": "line",
+          "id": "ZJEQI",
+          "name": "dividerContact",
+          "width": "fill_container",
+          "height": 0,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#F0F0F0"
+          }
+        },
+        {
+          "type": "frame",
+          "id": "OGcHl",
+          "name": "Contact Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            64,
+            240,
+            80,
+            240
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "2dBKT",
+              "name": "contactLinks",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aDCjg",
+                  "name": "githubLink",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "HNCTn",
+                      "name": "githubIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "github",
+                      "iconFontFamily": "lucide",
+                      "fill": "#1A1A1A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gqneJ",
+                      "name": "githubText",
+                      "fill": "#1A1A1A",
+                      "content": "GitHub",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tWJ18",
+                  "name": "linkedinLink",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Dszl6",
+                      "name": "linkedinIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "linkedin",
+                      "iconFontFamily": "lucide",
+                      "fill": "#1A1A1A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "g4y1S",
+                      "name": "linkedinText",
+                      "fill": "#1A1A1A",
+                      "content": "LinkedIn",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TwiI7",
+                  "name": "emailLink",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "pgJpG",
+                      "name": "emailIcon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "mail",
+                      "iconFontFamily": "lucide",
+                      "fill": "#1A1A1A"
+                    },
+                    {
+                      "type": "text",
+                      "id": "drAyz",
+                      "name": "emailText",
+                      "fill": "#1A1A1A",
+                      "content": "mitchel@mitaa.dev",
+                      "fontFamily": "Inter",
+                      "fontSize": 14
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

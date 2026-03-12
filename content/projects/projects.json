@@ -1,0 +1,118 @@
+[
+  {
+    "slug": "smart-home-controller",
+    "title": "Smart Home Controller",
+    "description": "An embedded IoT controller built with ESP32 for home automation, featuring real-time sensor monitoring and remote control via a web dashboard.",
+    "category": "Embedded",
+    "techStack": ["C", "ESP32", "FreeRTOS", "MQTT", "React", "Node.js"],
+    "github": "https://github.com/MITCHEL-Development/smart-home",
+    "featured": true,
+    "context": "Personal project to automate home environment monitoring and control.",
+    "role": "Full-stack developer & hardware designer",
+    "goal": "Create an affordable, open-source smart home solution.",
+    "features": [
+      "Real-time sensor data streaming via MQTT",
+      "FreeRTOS-based multitasking firmware",
+      "React web dashboard with live charts",
+      "OTA firmware updates",
+      "Energy consumption tracking"
+    ]
+  },
+  {
+    "slug": "portfolio-website",
+    "title": "Portfolio Website",
+    "description": "A modern, dark-themed portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and responsive design.",
+    "category": "Web",
+    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+    "github": "https://github.com/MITCHEL-Development/portfolio-site",
+    "demo": "https://mitaa.dev",
+    "featured": true,
+    "context": "Professional portfolio to showcase work and skills.",
+    "role": "Designer & Developer",
+    "goal": "Create a minimalistic, high-performance portfolio site.",
+    "features": [
+      "Server-side rendering with Next.js",
+      "Dark UI with custom design system",
+      "Responsive across all devices",
+      "Blog with markdown support",
+      "SEO optimized"
+    ]
+  },
+  {
+    "slug": "ml-image-classifier",
+    "title": "ML Image Classifier",
+    "description": "A machine learning pipeline for image classification using Python and TensorFlow, trained on custom datasets with 95%+ accuracy.",
+    "category": "ML",
+    "techStack": ["Python", "TensorFlow", "OpenCV", "Flask", "Docker"],
+    "github": "https://github.com/MITCHEL-Development/ml-classifier",
+    "featured": true,
+    "context": "Research project for automated quality control in manufacturing.",
+    "role": "ML Engineer",
+    "goal": "Achieve 95%+ classification accuracy on industrial components.",
+    "features": [
+      "Transfer learning with ResNet50",
+      "Custom data augmentation pipeline",
+      "REST API for real-time inference",
+      "Docker containerized deployment",
+      "Performance monitoring dashboard"
+    ]
+  },
+  {
+    "slug": "rtos-task-scheduler",
+    "title": "RTOS Task Scheduler",
+    "description": "A custom real-time task scheduler for STM32 microcontrollers, implementing priority-based preemptive scheduling.",
+    "category": "Embedded",
+    "techStack": ["C", "ARM Assembly", "STM32", "KiCad"],
+    "github": "https://github.com/MITCHEL-Development/rtos-scheduler",
+    "featured": true,
+    "context": "Educational project to deeply understand real-time operating systems.",
+    "role": "Embedded Systems Developer",
+    "goal": "Build a minimal RTOS from scratch for learning purposes.",
+    "features": [
+      "Priority-based preemptive scheduling",
+      "Context switching via PendSV",
+      "Inter-task message queues",
+      "Semaphores and mutexes",
+      "Hardware timer integration"
+    ]
+  },
+  {
+    "slug": "cli-devtool",
+    "title": "CLI DevTool",
+    "description": "A Rust-based command-line tool for automating common development workflows including project scaffolding and deployment.",
+    "category": "Open Source",
+    "techStack": ["Rust", "Clap", "Tokio", "GitHub Actions"],
+    "github": "https://github.com/MITCHEL-Development/cli-devtool",
+    "featured": false,
+    "context": "Open source tool to speed up developer workflows.",
+    "role": "Creator & Maintainer",
+    "goal": "Reduce project setup time from hours to minutes.",
+    "features": [
+      "Project scaffolding from templates",
+      "Environment configuration management",
+      "Automated CI/CD pipeline setup",
+      "Multi-cloud deployment support",
+      "Plugin system for extensibility"
+    ]
+  },
+  {
+    "slug": "budget-tracker-app",
+    "title": "Budget Tracker App",
+    "description": "A full-stack budget tracking application with React frontend and Node.js backend, featuring data visualization and recurring transactions.",
+    "category": "Web",
+    "techStack": ["React", "Node.js", "PostgreSQL", "Chart.js", "Express"],
+    "github": "https://github.com/MITCHEL-Development/budget-tracker",
+    "demo": "https://budget.mitaa.dev",
+    "featured": false,
+    "context": "Side project to practice full-stack development.",
+    "role": "Full-stack Developer",
+    "goal": "Build a practical app with clean architecture and UX.",
+    "features": [
+      "Category-based expense tracking",
+      "Interactive charts and reports",
+      "Recurring transaction support",
+      "CSV import/export",
+      "Responsive mobile design"
+    ]
+  }
+]

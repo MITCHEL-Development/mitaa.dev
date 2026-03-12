@@ -1,0 +1,1 @@
+A comprehensive personal finance tracker with a clean, intuitive interface. Users can track income and expenses, set budgets by category, and visualize spending patterns. Built with React, Node.js, and PostgreSQL with real-time chart updates.

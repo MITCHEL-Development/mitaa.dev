@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "markdown-features-showcase",
+    "title": "Markdown Features Showcase",
+    "date": "2026-03-02",
+    "excerpt": "A complete overview of every Markdown feature supported on this blog — headings, lists, tables, code blocks, blockquotes, and more.",
+    "tags": ["Markdown", "Reference", "Web"],
+    "readTime": "4 min read"
+  },
+  {
+    "slug": "building-rtos-from-scratch",
+    "title": "Building an RTOS from Scratch on STM32",
+    "date": "2026-01-15",
+    "excerpt": "A deep dive into building a minimal real-time operating system from scratch on ARM Cortex-M4, covering context switching, scheduling, and synchronization primitives.",
+    "tags": ["Embedded", "C", "RTOS", "STM32"],
+    "readTime": "12 min read"
+  },
+  {
+    "slug": "rust-for-embedded-developers",
+    "title": "Why Rust is the Future of Embedded Development",
+    "date": "2025-12-08",
+    "excerpt": "Exploring how Rust's ownership model and zero-cost abstractions make it an excellent choice for safety-critical embedded systems.",
+    "tags": ["Rust", "Embedded", "Safety"],
+    "readTime": "8 min read"
+  },
+  {
+    "slug": "nextjs-portfolio-devlog",
+    "title": "Devlog: Building My Portfolio with Next.js 15",
+    "date": "2026-02-10",
+    "excerpt": "A behind-the-scenes look at designing and building a modern developer portfolio with Next.js, Tailwind CSS, and a dark-first design approach.",
+    "tags": ["Web", "Next.js", "Design", "Tailwind"],
+    "readTime": "6 min read"
+  }
+]

@@ -1,0 +1,1 @@
+Designed and built a complete smart home automation system from the ground up. The hardware runs on ESP32 microcontrollers collecting data from temperature, humidity, and motion sensors. The firmware is written in C with FreeRTOS for real-time task scheduling. A React-based web dashboard communicates via MQTT for real-time updates.

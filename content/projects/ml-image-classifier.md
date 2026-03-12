@@ -1,0 +1,1 @@
+Built a complete ML pipeline for classifying industrial components using computer vision. The model uses a fine-tuned ResNet50 architecture trained on a custom dataset of 10,000+ images. Includes data augmentation, transfer learning, and a Flask API for inference.
