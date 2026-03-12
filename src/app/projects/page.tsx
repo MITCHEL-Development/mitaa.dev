@@ -1,4 +1,5 @@
 import { getAllProjects, getCategories } from "@/lib/projects";
+import { fetchGitHubRepos, mapReposToProjects } from "@/lib/github";
 import ProjectsList from "./ProjectsList";
 
 export const metadata = {
@@ -6,9 +7,19 @@ export const metadata = {
   description: "A collection of projects.",
 };
 
-export default function ProjectsPage() {
+export default async function ProjectsPage() {
   const projects = getAllProjects();
   const categories = getCategories();
 
-  return <ProjectsList curatedProjects={projects} curatedCategories={categories} />;
+  // Fetch GitHub repos at build time so they work with static export
+  const rawRepos = await fetchGitHubRepos();
+  const githubProjects = mapReposToProjects(rawRepos, projects);
+
+  return (
+    <ProjectsList
+      curatedProjects={projects}
+      curatedCategories={categories}
+      initialGithubProjects={githubProjects}
+    />
+  );
 }
