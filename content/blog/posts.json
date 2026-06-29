@@ -5,7 +5,8 @@
     "date": "2026-03-02",
     "excerpt": "A complete overview of every Markdown feature supported on this blog — headings, lists, tables, code blocks, blockquotes, and more.",
     "tags": ["Markdown", "Reference", "Web"],
-    "readTime": "4 min read"
+    "readTime": "4 min read",
+    "xPostUrl": "https://x.com/YOUR_HANDLE/status/PLACEHOLDER_TWEET_ID_1"
   },
   {
     "slug": "building-rtos-from-scratch",
@@ -13,7 +14,8 @@
     "date": "2026-01-15",
     "excerpt": "A deep dive into building a minimal real-time operating system from scratch on ARM Cortex-M4, covering context switching, scheduling, and synchronization primitives.",
     "tags": ["Embedded", "C", "RTOS", "STM32"],
-    "readTime": "12 min read"
+    "readTime": "12 min read",
+    "xPostUrl": "https://x.com/YOUR_HANDLE/status/PLACEHOLDER_TWEET_ID_2"
   },
   {
     "slug": "rust-for-embedded-developers",
@@ -21,7 +23,8 @@
     "date": "2025-12-08",
     "excerpt": "Exploring how Rust's ownership model and zero-cost abstractions make it an excellent choice for safety-critical embedded systems.",
     "tags": ["Rust", "Embedded", "Safety"],
-    "readTime": "8 min read"
+    "readTime": "8 min read",
+    "xPostUrl": "https://x.com/YOUR_HANDLE/status/PLACEHOLDER_TWEET_ID_3"
   },
   {
     "slug": "nextjs-portfolio-devlog",
@@ -29,6 +32,7 @@
     "date": "2026-02-10",
     "excerpt": "A behind-the-scenes look at designing and building a modern developer portfolio with Next.js, Tailwind CSS, and a dark-first design approach.",
     "tags": ["Web", "Next.js", "Design", "Tailwind"],
-    "readTime": "6 min read"
+    "readTime": "6 min read",
+    "xPostUrl": "https://x.com/YOUR_HANDLE/status/PLACEHOLDER_TWEET_ID_4"
   }
 ]

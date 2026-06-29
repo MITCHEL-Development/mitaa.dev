@@ -1,5 +1,5 @@
 import { Mail } from "lucide-react";
-import { GitHubIcon, LinkedInIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export default function Footer() {
   return (
@@ -23,6 +23,15 @@ export default function Footer() {
           >
             <LinkedInIcon size={16} />
             LinkedIn
+          </a>
+          <a
+            href="https://x.com/MITCHEL_Dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-[13px] text-[#999999] hover:text-[#1A1A1A] transition-colors"
+          >
+            <XIcon size={16} />
+            X
           </a>
           <a
             href="mailto:hello@mitaa.dev"

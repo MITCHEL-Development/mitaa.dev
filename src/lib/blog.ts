@@ -16,6 +16,7 @@ export interface BlogPost {
   excerpt: string;
   tags: string[];
   readTime: string;
+  xPostUrl?: string;
 }
 
 export interface TocItem {
@@ -37,6 +38,7 @@ interface PostEntry {
   excerpt: string;
   tags: string[];
   readTime: string;
+  xPostUrl?: string;
 }
 
 /** Read the posts registry from posts.json. */
@@ -57,6 +59,7 @@ export function getAllPosts(): BlogPost[] {
       excerpt: entry.excerpt,
       tags: entry.tags ?? [],
       readTime: entry.readTime ?? "",
+      xPostUrl: entry.xPostUrl,
     }))
     .sort((a, b) => (a.date > b.date ? -1 : 1));
 }
@@ -140,6 +143,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPostWithHtml | nu
     excerpt: entry.excerpt,
     tags: entry.tags ?? [],
     readTime: entry.readTime ?? "",
+    xPostUrl: entry.xPostUrl,
     content,
     contentHtml,
     toc,

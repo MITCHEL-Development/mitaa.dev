@@ -5,6 +5,7 @@ import { getAllSlugs, getPostBySlug } from "@/lib/blog";
 import { Blur } from "@/components/animate-ui/primitives/effects/blur";
 import { Fade } from "@/components/animate-ui/primitives/effects/fade";
 import TableOfContents from "@/components/TableOfContents";
+import DiscussOnX from "@/components/DiscussOnX";
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -100,6 +101,9 @@ export default async function BlogPostPage({
           </div>
         </article>
       </Fade>
+
+      {/* Discuss on X */}
+      <DiscussOnX url={post.xPostUrl} />
 
       {/* Navigation */}
       <div className="mt-16 pt-6 border-t border-[#F0F0F0]">

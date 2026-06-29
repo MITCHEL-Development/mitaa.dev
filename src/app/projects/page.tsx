@@ -1,5 +1,5 @@
 import { getAllProjects, getCategories } from "@/lib/projects";
-import { fetchGitHubRepos, mapReposToProjects } from "@/lib/github";
+import { readGitHubRepos, mapReposToProjects } from "@/lib/github";
 import ProjectsList from "./ProjectsList";
 
 export const metadata = {
@@ -11,8 +11,8 @@ export default async function ProjectsPage() {
   const projects = getAllProjects();
   const categories = getCategories();
 
-  // Fetch GitHub repos at build time so they work with static export
-  const rawRepos = await fetchGitHubRepos();
+  // Read pre-fetched GitHub repos for static export
+  const rawRepos = readGitHubRepos();
   const githubProjects = mapReposToProjects(rawRepos, projects);
 
   return (

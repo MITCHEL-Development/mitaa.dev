@@ -168,7 +168,7 @@ export default function ProjectsList({ curatedProjects, curatedCategories, initi
         })}
       </div>
 
-      {filtered.length === 0 && !loading && (
+      {filtered.length === 0 && (
         <div className="text-center py-16">
           <p className="text-[#999999] text-[14px]">No projects found</p>
           <button

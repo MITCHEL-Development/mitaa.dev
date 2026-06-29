@@ -1,6 +1,27 @@
+import fs from "node:fs";
+import path from "node:path";
 import type { Project } from "@/lib/projects";
 
 const GITHUB_USERNAME = "MITCHEL-Development";
+
+/** Read pre-fetched GitHub contributions from the static data file. */
+export function readGitHubContributions() {
+  const filePath = path.join(process.cwd(), "public", "data", "github-contributions.json");
+  if (!fs.existsSync(filePath)) return null;
+  const raw = fs.readFileSync(filePath, "utf8");
+  return JSON.parse(raw) as {
+    totalContributions: number;
+    weeks: { contributionDays: { date: string; contributionCount: number; color: string }[] }[];
+  };
+}
+
+/** Read pre-fetched GitHub repos from the static data file. */
+export function readGitHubRepos() {
+  const filePath = path.join(process.cwd(), "public", "data", "github-repos.json");
+  if (!fs.existsSync(filePath)) return [];
+  const raw = fs.readFileSync(filePath, "utf8");
+  return JSON.parse(raw) as GitHubRepo[];
+}
 
 export interface GitHubRepo {
   name: string;

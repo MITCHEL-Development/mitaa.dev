@@ -62,7 +62,7 @@ export default function GitHubContributions() {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch("/api/github/contributions")
+    fetch("/data/github-contributions.json")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch");
         return res.json();
